@@ -1,0 +1,22 @@
+{
+    "bottom_shell_layers": "4",
+    "bottom_shell_thickness": "1",
+    "default_acceleration": "0",
+    "exclude_object": "0",
+    "from": "User",
+    "inherits": "0.20mm Standard @MyRRF",
+    "initial_layer_print_height": "0.3",
+    "initial_layer_speed": "20",
+    "inner_wall_speed": "60",
+    "is_custom_defined": "0",
+    "line_width": "150%",
+    "name": "0.20mm Standard @Craftbot 2 DeezMaker",
+    "outer_wall_speed": "40",
+    "print_settings_id": "0.20mm Standard @Craftbot 2 DeezMaker",
+    "seam_position": "random",
+    "sparse_infill_density": "20%",
+    "sparse_infill_pattern": "gyroid",
+    "top_shell_thickness": "1",
+    "version": "2.3.0.3",
+    "wall_loops": "5"
+}
