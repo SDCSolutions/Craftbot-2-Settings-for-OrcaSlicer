@@ -1,0 +1,95 @@
+{
+    "deretraction_speed": [
+        "80"
+    ],
+    "disable_m73": "1",
+    "emit_machine_limits_to_gcode": "0",
+    "enable_filament_ramming": "0",
+    "fan_speedup_overhangs": "0",
+    "from": "User",
+    "inherits": "MyRRF 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "G28 X0 Y0 ;move to zy home\nM104 S0 ;turn off nozzle heat\nM140 S0 ;turn off bed heat\nM106 S0;turn off fan\nG90 ;absolute movements\nG0 Z195 F3000 ;move bed down\nM84 ;disable motors\n",
+    "machine_max_acceleration_e": [
+        "0",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "0",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "0",
+        "5000"
+    ],
+    "machine_max_acceleration_travel": [
+        "0",
+        "20000"
+    ],
+    "machine_max_acceleration_x": [
+        "0",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "0",
+        "20000"
+    ],
+    "machine_max_acceleration_z": [
+        "0",
+        "200"
+    ],
+    "machine_max_jerk_e": [
+        "0",
+        "2.5"
+    ],
+    "machine_max_jerk_x": [
+        "0",
+        "9"
+    ],
+    "machine_max_jerk_y": [
+        "0",
+        "9"
+    ],
+    "machine_max_jerk_z": [
+        "0",
+        "0.4"
+    ],
+    "machine_start_gcode": "G21 ;metric values\nG28 X0Y0 ;home xy\nG28 Z0 ;home z\nG91 ;relative movements\nM190 S[first_layer_bed_temperature] ;Uncomment to add your own bed temperature line\nM109 S[first_layer_temperature] ;Uncomment to add your own temperature line\nG0 F100 ;speed 100mm/sec\nG0 E12 ;purge nozzle\nG90 ;Absolute movements\nG92 E0\nG28 Z0 ;home z",
+    "max_layer_height": [
+        "0.2"
+    ],
+    "min_layer_height": [
+        "0.2"
+    ],
+    "name": "Craftbot 2 0.4 nozzle",
+    "nozzle_type": "brass",
+    "printable_area": [
+        "0x0",
+        "250x0",
+        "250x200",
+        "0x200"
+    ],
+    "printable_height": "200",
+    "printer_settings_id": "Craftbot 2 0.4 nozzle",
+    "purge_in_prime_tower": "0",
+    "retract_lift_enforce": [
+        "Top and Bottom"
+    ],
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "retraction_length": [
+        "1.2"
+    ],
+    "retraction_minimum_travel": [
+        "1.2"
+    ],
+    "retraction_speed": [
+        "80"
+    ],
+    "single_extruder_multi_material": "0",
+    "version": "2.3.0.3",
+    "wipe": [
+        "0"
+    ]
+}
