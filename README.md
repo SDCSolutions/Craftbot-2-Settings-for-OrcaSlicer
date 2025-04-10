@@ -13,3 +13,5 @@ Instructions for Mac:
 Place the contents of the directory at this address on Mac
 
 ~/Library/Application Support/OrcaSlicer/user/default
+
+You may wish to copy over the individual files as opposed to overwriting the folders, especially if you already have custom printers.
