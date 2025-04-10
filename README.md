@@ -6,3 +6,8 @@ Troubleshooting and testing done by Jatomis S. Stevenson (Stevenson Design and C
 Instructions for PC:
 Place the contents of the directory at this address on PC
 C:/Users/%USERNAME%/AppData/Roaming/OrcaSlicer/user/default
+
+
+Instructions for Mac:
+Place the contents of the directory at this address on Mac
+~/Library/Application Support/OrcaSlicer/user/default
